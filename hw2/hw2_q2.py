@@ -38,17 +38,17 @@ except Exception as e:
 
 # 1. Select every 20th row starting from row 0
 filtered_df = df.loc[::20, ['Manufacturer', 'Model', 'Type']]
-print("\n🔹 Filtered Manufacturer, Model, Type:")
+print("\n Filtered Manufacturer, Model, Type:")
 print(filtered_df)
 
 # 2. Replace NaN values in 'Min.Price' and 'Max.Price' with their respective mean
 df['Min.Price'].fillna(df['Min.Price'].mean(), inplace=True)
 df['Max.Price'].fillna(df['Max.Price'].mean(), inplace=True)
-print("\n🔹 Updated DataFrame with Imputed Prices:")
+print("\n Updated DataFrame with Imputed Prices:")
 print(df[['Manufacturer', 'Min.Price', 'Max.Price']].head())
 
 # 3. Create a random DataFrame and filter rows where the sum > 100
 df_random = pd.DataFrame(np.random.randint(10, 40, 60).reshape(-1, 4))
 filtered_rows = df_random[df_random.sum(axis=1) > 100]
-print("\n🔹 Rows with Sum > 100:")
+print("\n Rows with Sum > 100:")
 print(filtered_rows)
