@@ -34,7 +34,7 @@ def count_unique_words_from_file(filename):
                 if char.isalnum():  # Check if the character is letters or numbers
                     filtered_chars.append(char)
 
-            cleaned_word = ''.join(filtered_chars)  # get the world from the lst to str
+            cleaned_word = ''.join(filtered_chars)  # Get the world from the lst to str
 
             if cleaned_word:  # Avoid empty word
                 words.append(cleaned_word)
