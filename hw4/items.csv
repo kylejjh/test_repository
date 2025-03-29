@@ -1,0 +1,9 @@
+Item_id,Item_name,Price,Department
+101,Widget A,20.0,Electronics
+102,Widget B,30.0,Clothing
+103,Widget C,20.0,Grocery
+104,Widget D,50.0,Electronics
+105,Widget E,30.0,Grocery
+106,Widget F,50.0,Home
+107,Widget G,50.0,Sports
+108,Widget H,400.0,Furniture
