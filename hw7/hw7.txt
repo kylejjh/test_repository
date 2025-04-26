@@ -1,0 +1,32 @@
+Take-Home Assignment Answers
+
+1. How do you assess the statistical significance of an insight?
+You assess statistical significance by using a p-value. If the p-value is less than a chosen threshold (usually 0.05), the result is considered statistically significant. This means it's unlikely that the observed effect is due to random chance. You typically run a hypothesis test (like a t-test or chi-square test) to calculate the p-value.
+
+2. What is the Central Limit Theorem? Explain it. Why is it important?
+The Central Limit Theorem (CLT) says that if you take a large number of random samples from any population (no matter the distribution), the distribution of the sample means will approach a normal distribution.
+It’s important because it lets us use normal distribution-based methods (like confidence intervals and z-tests) even if the population isn’t normally distributed—as long as the sample size is big enough.
+
+3. What is the statistical power?
+Statistical power is the probability that a test will detect a true effect when it exists (i.e., correctly reject the null hypothesis).
+Higher power means a lower chance of making a Type II error (failing to detect a real difference). Power depends on sample size, effect size, and significance level.
+
+4. How do you control for biases?
+You can control bias by:
+- Randomization: Randomly assign subjects to groups to avoid selection bias.
+- Blinding: Keep participants and/or researchers unaware of group assignments.
+- Standardization: Use consistent procedures and measurements.
+- Control groups: Compare results against a baseline group.
+- Statistical adjustments: Use methods like regression to control for known confounders.
+
+5. What are confounding variables?
+A confounding variable is an outside factor that affects both the independent and dependent variables, potentially misleading the results.
+For example, if you're studying whether exercise improves sleep, a confounder could be stress level, which affects both exercise habits and sleep quality.
+
+6. What is A/B testing?
+A/B testing is an experiment comparing two versions (A and B) to see which one performs better.
+You randomly assign users to either group and measure a specific outcome (e.g., click-through rate). It's often used in product design, marketing, and UX.
+
+7. What are confidence intervals?
+A confidence interval (CI) gives a range of values that likely includes the true population parameter (like a mean or proportion).
+For example, a 95% CI means that if you repeated the experiment many times, 95% of the intervals would contain the true value. It reflects both the estimate and the uncertainty around it.
